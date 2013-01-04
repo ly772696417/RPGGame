@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="D3DUtil">
+      <UniqueIdentifier>{0ed09963-1cf8-4e3d-b7be-a7106ed5fa85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{5d49a7ea-d103-4e18-ae6d-37ca3e27c224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{13b9fae5-5d33-4967-8443-e70cfddbb7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DInit">
+      <UniqueIdentifier>{9266cbc6-5e17-467d-992b-ffe8c5773703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{d959efcf-6d12-4cdd-bf14-7387f54fdeaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI">
+      <UniqueIdentifier>{32d1e87d-0077-45cb-989a-003f207c5c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{ea38b1e9-dc2c-4944-bf6a-0b818eee9472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneObject">
+      <UniqueIdentifier>{901cd02d-a17e-4386-b8e9-37d3ab967432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemResource">
+      <UniqueIdentifier>{bb8f0bde-ee07-42a7-a077-a05b9a14e6a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Singleton.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="StructDefine.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>D3DUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DInit.h">
+      <Filter>D3DInit</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DGameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DInput.h">
+      <Filter>SystemResource</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DCamera.h">
+      <Filter>SystemResource</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DSkyBox.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Timer.cpp">
+      <Filter>D3DUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>D3DUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateWindow.cpp">
+      <Filter>D3DInit</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DInit.cpp">
+      <Filter>D3DInit</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DGameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DInput.cpp">
+      <Filter>SystemResource</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DCamera.cpp">
+      <Filter>SystemResource</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DSkyBox.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
